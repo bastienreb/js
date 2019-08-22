@@ -109,7 +109,7 @@ for(var i=0 ; i < books.length; i++){
   }
 }
 
-console.log("le plus emrpunté")
+console.log("le plus emprunté")
 let max_rented = books[0].rented
 let max_rented_title = books[0].title
 for (var i=1; i < books.length; i++)
@@ -124,7 +124,7 @@ console.log(max_rented_title)
 
 
 
-console.log("le moins emrpunté")
+console.log("le moins emprunté")
 let min_rented = books[0].rented
 let min_rented_title = books[0].title
 for (var i=1; i < books.length; i++)
